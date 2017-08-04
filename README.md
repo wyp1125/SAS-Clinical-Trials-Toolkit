@@ -34,10 +34,10 @@ d) "sdtm_dm.sas": generate the SDTM DM and SUPPDM domain datasets from "dm.sas" 
 
 e) "sdtm_ae.sas": generate the SDTM AE domain dataset from "sdtm_dm.sas" and "ae.sas" outputs.
 
-d) "sdtm_EX.sas": generate the SDTM EX domain dataset from "sdtm_dm.sas" and "ds.sas" outputs.
+f) "sdtm_EX.sas": generate the SDTM EX domain dataset from "sdtm_dm.sas" and "ds.sas" outputs.
 
-d) "sdtm_lb.sas": generate the SDTM LB domain dataset from "sdtm_dm.sas" and "lb.sas" outputs.
+g) "sdtm_lb.sas": generate the SDTM LB domain dataset from "sdtm_dm.sas" and "lb.sas" outputs.
 
-d) "sdtm_xp.sas": generate the SDTM XP domain dataset from "sdtm_dm.sas" and "pn.sas" outputs.
+h) "sdtm_xp.sas": generate the SDTM XP domain dataset from "sdtm_dm.sas" and "pn.sas" outputs.
 
 4. ADaM pprograms
