@@ -30,18 +30,14 @@ b) "make_sdtm_dy2.sas": contains a macro "%make_sdtm_dy2" to generate study day 
 
 c) "make_sort_order.sas": contains a macro "%make_sort_order" to generate a macro variable which contains the keys for ranking a SDTM dataset.
 
-d) "sdtm_dm.sas": generate the SDTM DM and SUPPDM domain datasets from "dm" and "ds" outputs.
+d) "sdtm_dm.sas": generate the SDTM DM and SUPPDM domain datasets from "dm.sas" and "ds.sas" outputs.
 
-e) "sdtm_ae.sas": generate the SDTM AE domain dataset.
+e) "sdtm_ae.sas": generate the SDTM AE domain dataset from "sdtm_dm.sas" and "ae.sas" outputs.
 
-d) "sdtm_EX.sas": generate the SDTM EX domain dataset.
+d) "sdtm_EX.sas": generate the SDTM EX domain dataset from "sdtm_dm.sas" and "ds.sas" outputs.
 
-d) "sdtm_lb.sas": generate the SDTM LB domain dataset.
+d) "sdtm_lb.sas": generate the SDTM LB domain dataset from "sdtm_dm.sas" and "lb.sas" outputs.
 
-d) "sdtm_xp.sas": generate the SDTM XP domain dataset.
-
-
-
-
+d) "sdtm_xp.sas": generate the SDTM XP domain dataset from "sdtm_dm.sas" and "pn.sas" outputs.
 
 4. ADaM pprograms
