@@ -1,3 +1,4 @@
+
 # SAS-Clinical-Trials-Toolset
 SAS scripts for clinical trials applications including generating SDTM domains, ADaM datasets, and Define.xml files.
 
@@ -19,6 +20,8 @@ e) "pn.sas": read in "pn.dat" to process raw pain score data
 f) "lab.sas": read in "lab.xls" to process raw labs data
 
 2. "Define.xml" program
+
+"make_define.sas", which contains a macro "%make_define", generates parts of the define.xml file for the SDTM and ADaM, which can be concatenated into the define.xml file using shell scripts.
 
 3. SDTM programs
 
