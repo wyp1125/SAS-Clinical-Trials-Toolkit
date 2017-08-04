@@ -12,7 +12,11 @@ b) "dm.sas": read in "dm.csv" to process raw demographic data
 
 c) "ae.sas": read in "ae.xlsx" to process raw adverse event data
 
-d) "
+d) "ds.sas": read in "ds.xlsx" to process raw dosage data
+
+e) "pn.sas": read in "pn.dat" to process raw pain score data
+
+f) "lab.sas": read in "lab.xls" to process raw labs data
 
 2. "Define.xml" program
 
