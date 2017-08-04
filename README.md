@@ -9,20 +9,24 @@ throughout the data and programs. All the programs are fully tested and correctl
 
 a) "common.sas": common library settings
 
-b) "dm.sas": read in "dm.csv" to process raw demographic data
+b) "dm.sas": reads in "dm.csv" to process raw demographic data
 
-c) "ae.sas": read in "ae.xlsx" to process raw adverse event data
+c) "ae.sas": reads in "ae.xlsx" to process raw adverse event data
 
-d) "ds.sas": read in "ds.xlsx" to process raw dosage data
+d) "ds.sas": reads in "ds.xlsx" to process raw dosage data
 
-e) "pn.sas": read in "pn.dat" to process raw pain score data
+e) "pn.sas": reads in "pn.dat" to process raw pain score data
 
-f) "lab.sas": read in "lab.xls" to process raw labs data
+f) "lab.sas": reads in "lab.xls" to process raw labs data
 
 2. "Define.xml" program
 
-"make_define.sas", which contains a macro "%make_define", generates parts of the define.xml file for the SDTM and ADaM, which can be concatenated into the define.xml file using shell scripts.
+"make_define.sas": contains a macro "%make_define" to generate parts of the define.xml file for the SDTM and ADaM, which can be further concatenated into the define.xml file.
 
 3. SDTM programs
+
+a) "make_empty_dataset.sas": contains a macro "%make_empty_dataset" to generate an empty domain dataset according to the variable list specified in the metadata file "SDTM_METADATA.xlsx".
+
+b) 
 
 4. ADaM pprograms
