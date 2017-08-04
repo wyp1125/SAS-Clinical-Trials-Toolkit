@@ -12,7 +12,7 @@ b) "dm.sas": reads in "dm.csv" to process raw demographic data
 
 c) "ae.sas": reads in "ae.xlsx" to process raw adverse event data
 
-d) "ds.sas": reads in "ds.xlsx" to process raw dosage data
+d) "ds.sas": reads in "ds.xlsx" to process raw dosing data
 
 e) "pn.sas": reads in "pn.dat" to process raw pain score data
 
@@ -29,5 +29,19 @@ a) "make_empty_dataset.sas": contains a macro "%make_empty_dataset" to generate 
 b) "make_sdtm_dy2.sas": contains a macro "%make_sdtm_dy2" to generate study day for date variables.
 
 c) "make_sort_order.sas": contains a macro "%make_sort_order" to generate a macro variable which contains the keys for ranking a SDTM dataset.
+
+d) "sdtm_dm.sas": generate the SDTM DM and SUPPDM domain datasets from "dm" and "ds" outputs.
+
+e) "sdtm_ae.sas": generate the SDTM AE domain dataset.
+
+d) "sdtm_EX.sas": generate the SDTM EX domain dataset.
+
+d) "sdtm_lb.sas": generate the SDTM LB domain dataset.
+
+d) "sdtm_xp.sas": generate the SDTM XP domain dataset.
+
+
+
+
 
 4. ADaM pprograms
