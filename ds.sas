@@ -33,6 +33,7 @@ do;
 end;
 else
   enddt1=input(enddt,$10.)-21916;
+uniqueid = 'UNI' || put(subject,3.);
 format startdt1 enddt1 mmddyy10.;
 drop i startdt enddt var11-var13 var21-var23;
 rename startdt1=startdt enddt1=enddt;

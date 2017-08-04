@@ -1,6 +1,6 @@
 %include '/folders/myfolders/test1/common.sas';
 %common;
-%include '/folders/myfolders/test1/make_sdtm_dy.sas';
+%include '/folders/myfolders/test1/make_sdtm_dy2.sas';
 %include '/folders/myfolders/test1/make_sort_order.sas';
 %include '/folders/myfolders/test1/make_empty_dataset.sas';
 %make_empty_dataset(metadatafile=/folders/myfolders/test1/SDTM_METADATA.xlsx,dataset=AE);
@@ -63,8 +63,7 @@ run;
 %make_sort_order(metadatafile=/folders/myfolders/test1/SDTM_METADATA.xlsx,dataset=AE);
 
 proc sort
-  data=ae(keep = STUDYID DOMAIN USUBJID AESEQ AETERM AEDECOD AEBODSYS AESEV AESER AEACN AEREL AESTDTC
-                 AEENDTC AESTDY AEENDY)
+  data=ae(keep = &AEKEEPSTRING)
   out=target.ae;
     by &AESORTSTRING;
 run;
