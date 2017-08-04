@@ -1,4 +1,3 @@
-
 # SAS-Clinical-Trials-Toolset
 SAS scripts for clinical trials applications including generating SDTM domains, ADaM datasets, and Define.xml files.
 
@@ -27,6 +26,8 @@ f) "lab.sas": reads in "lab.xls" to process raw labs data
 
 a) "make_empty_dataset.sas": contains a macro "%make_empty_dataset" to generate an empty domain dataset according to the variable list specified in the metadata file "SDTM_METADATA.xlsx".
 
-b) 
+b) "make_sdtm_dy2.sas": contains a macro "%make_sdtm_dy2" to generate study day for date variables.
+
+c) "make_sort_order.sas": contains a macro "%make_sort_order" to generate a macro variable which contains the keys for ranking a SDTM dataset.
 
 4. ADaM pprograms
