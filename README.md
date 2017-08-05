@@ -30,14 +30,24 @@ b) "make_sdtm_dy2.sas": contains a macro "%make_sdtm_dy2" to generate study day 
 
 c) "make_sort_order.sas": contains a macro "%make_sort_order" to generate a macro variable which contains the keys for ranking a SDTM dataset.
 
-d) "sdtm_dm.sas": generate the SDTM DM and SUPPDM domain datasets from "dm.sas" and "ds.sas" outputs.
+d) "sdtm_dm.sas": generates the SDTM DM and SUPPDM domain datasets from "dm.sas" and "ds.sas" outputs.
 
-e) "sdtm_ae.sas": generate the SDTM AE domain dataset from "sdtm_dm.sas" and "ae.sas" outputs.
+e) "sdtm_ae.sas": generates the SDTM AE domain dataset from "sdtm_dm.sas" and "ae.sas" outputs.
 
-f) "sdtm_EX.sas": generate the SDTM EX domain dataset from "sdtm_dm.sas" and "ds.sas" outputs.
+f) "sdtm_EX.sas": generates the SDTM EX domain dataset from "sdtm_dm.sas" and "ds.sas" outputs.
 
-g) "sdtm_lb.sas": generate the SDTM LB domain dataset from "sdtm_dm.sas" and "lb.sas" outputs.
+g) "sdtm_lb.sas": generates the SDTM LB domain dataset from "sdtm_dm.sas" and "lb.sas" outputs.
 
-h) "sdtm_xp.sas": generate the SDTM XP domain dataset from "sdtm_dm.sas" and "pn.sas" outputs.
+h) "sdtm_xp.sas": generates the SDTM XP domain dataset from "sdtm_dm.sas" and "pn.sas" outputs.
 
 4. ADaM pprograms
+
+a) "setup.sas": contains library and format settings. 
+
+b) "cfb.sas": contains a macro "%cfb" to generate baseline values and change from the baseline.
+
+c) "dtc2dt.sas": contains a macro "%dtc2dt" to convert character date to numeric date.
+
+d) "mergesupp.sas": contains a macro "%mergesupp" to merge supplemental qualifiers into the parent SDTM domain.
+
+e) 
