@@ -50,4 +50,10 @@ c) "dtc2dt.sas": contains a macro "%dtc2dt" to convert character date to numeric
 
 d) "mergesupp.sas": contains a macro "%mergesupp" to merge supplemental qualifiers into the parent SDTM domain.
 
-e) 
+e) "adam_adsl.sas": generates the ADaM ADSL domain dataset from "sdtm_dm.sas" and "sdtm_xp.sas" outputs.
+
+f) "adam_adae.sas": generates the ADaM ADAE domain dataset from "adam_adsl.sas" and "sdtm_ae.sas" outputs.
+
+g) "adam_adef.sas": generates the ADaM ADEF domain dataset from "adam_adsl.sas" and "sdtm_xp.sas" outputs.
+
+h) "adam_adtte.sas": generates the ADaM ADTTE domain dataset from "adam_adsl.sas", "adam_adae.sas" and "adam_adef.sas" outputs.
